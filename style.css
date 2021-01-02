@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+  cursor: none;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+header nav {
+  width: 80%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+header nav .logo {
+  text-decoration: none;
+  color: #444;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header nav .whiteLogo {
+  color: #fff;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li {
+  margin-left: 40px;
+  list-style: none;
+}
+
+.hero {
+  width: 80%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.hero .hero-left {
+  width: 50%;
+}
+
+.hero .hero-left h1 {
+  font-size: 50px;
+  color: #1c9cb8;
+}
+
+.hero .hero-left p {
+  margin-top: 20px;
+  color: #555;
+}
+
+.hero .hero-right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.hero .hero-right img {
+  width: 50%;
+}
+
+.cursor {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border: 2px solid #222;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  pointer-events: none;
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition-property: background, width, height;
+  transition-property: background, width, height;
+}
+
+.logoCursor {
+  border: none;
+  background: #111;
+  width: 70px;
+  height: 70px;
+  z-index: -1;
+}
+
+.navLinksCursor {
+  border: none;
+  background: #111;
+  width: 65px;
+  height: 65px;
+  z-index: -1;
+}
+
+.whiteNavLink {
+  color: #fff;
+}
+
+.imgCursor {
+  width: 80px;
+  height: 80px;
+  -webkit-backdrop-filter: grayscale(1);
+          backdrop-filter: grayscale(1);
+  border-color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
